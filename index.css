@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -36,7 +36,7 @@ header {
     background: transparent;
     padding: 25px 15%;
     border-bottom: 1px transparent;
-    transition: all .45s ease;
+    transition: all 0.45s ease;
 }
 
 .logo {
@@ -47,5 +47,25 @@ header {
 }
 
 span {
+    color: var(--main-color);
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all 0.45s ease;
+}
+
+.navlist a:hover {
+    color: var(--main-color);
+}
+
+.navlist a.active {
     color: var(--main-color);
 }
