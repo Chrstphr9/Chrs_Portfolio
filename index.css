@@ -257,5 +257,11 @@ header.sticky {
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
-    
+}
+
+.box {
+    background: var(--bg-color);
+    padding: 35px 45px;
+    border-radius: 8px;
+    transition: all .45s ease;
 }
