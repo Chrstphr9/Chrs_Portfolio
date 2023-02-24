@@ -191,3 +191,9 @@ section {
 .btn2 span i:hover {
     transform: scale(0.8) translate(5px);
 }
+
+header.sticky {
+    background: var(--bg-color);
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+} 
