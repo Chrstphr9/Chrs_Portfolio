@@ -18,3 +18,23 @@
     --h2-font: 3rem;
     --p-font: 1.1rem;
 }
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 25px 15%;
+    border-bottom: 1px transparent;
+    transition: all .45s ease;
+}
