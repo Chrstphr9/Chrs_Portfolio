@@ -197,3 +197,22 @@ header.sticky {
     border-bottom: 1px solid #ffffff1a;
     padding: 12px 15%;
 } 
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img img {
+    max-width: 330px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-text h2 {
+    font-size: var(--h2-font);
+    line-height: 1;
+}
