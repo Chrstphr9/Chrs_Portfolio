@@ -152,4 +152,10 @@ section {
     display: inline-flex;
     padding: 12px 28px;
     background: var(--main-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
 }
