@@ -504,3 +504,10 @@ header.sticky {
     color: var(--text-color);
     background: var(--main-color);
 }
+
+@media (max-width: 1440px) {
+    header {
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+}
