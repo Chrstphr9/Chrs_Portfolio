@@ -505,9 +505,27 @@ header.sticky {
     background: var(--main-color);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1480px) {
     header {
         padding: 12px 2.5%;
         transition: .1s;
+    }
+    header.sticky {
+        padding: 10px 2.5%;
+        transition: .1s;
+    }
+    section {
+        padding: 110px 3% 60px;
+    }
+    .end {
+        padding: 15px 3%;
+    }
+}
+
+@media (max-width: 1100px) {
+    :root {
+        --big-font: 4rem;
+        --h2-font: 2.5rem;
+        --p-font: 1rem;
     }
 }
